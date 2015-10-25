@@ -1,0 +1,14 @@
+{
+    "GOOG":{
+        "targetAllocation":60,
+        "sharesOwned":52
+    },
+    "AAPL":{
+        "targetAllocation":30,
+        "sharesOwned":136
+    },
+    "TSLA":{
+        "targetAllocation":10,
+        "sharesOwned":239
+    }
+}
