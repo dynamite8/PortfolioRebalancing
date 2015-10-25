@@ -1,0 +1,18 @@
+{
+    "RY":{
+        "targetAllocation":40,
+        "sharesOwned":130
+    },
+    "BMO":{
+        "targetAllocation":30,
+        "sharesOwned":500
+    },
+    "CM":{
+        "targetAllocation":20,
+        "sharesOwned":239
+    },
+    "TD":{
+        "targetAllocation":10,
+        "sharesOwned":100
+    }
+}
