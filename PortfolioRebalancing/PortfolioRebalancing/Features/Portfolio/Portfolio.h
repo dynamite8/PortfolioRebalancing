@@ -10,13 +10,8 @@
 
 @interface Portfolio : NSObject
 
-@property (strong, nonatomic) NSMutableArray *listOfTickers;
-@property (strong, nonatomic) NSDictionary *listOfCurrentTickerPrice;
-
 - (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithListOfTickers:(NSDictionary *)inputList;
-- (instancetype)initWithListOfTickersFile:(NSString *)filename;
-- (void)parseListOfTickersFromFile:(NSString*)filename;
-- (NSString*)getRebalancedAllocation;
+- (instancetype)initWithPorfolioName:(NSString*)portfolioName;
+@property (strong, nonatomic) NSMutableArray *listOfTickers;
 
 @end

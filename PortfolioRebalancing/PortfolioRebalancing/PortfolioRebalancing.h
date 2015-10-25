@@ -17,5 +17,12 @@ FOUNDATION_EXPORT const unsigned char PortfolioRebalancingVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <PortfolioRebalancing/PublicHeader.h>
 
 #import <PortfolioRebalancing/Ticker.h>
+#import <PortfolioRebalancing/Ticker+TargetAllocation.h>
 #import <PortfolioRebalancing/PortfolioUtility.h>
 #import <PortfolioRebalancing/Portfolio.h>
+#import <PortfolioRebalancing/PortfolioManager.h>
+#import <PortfolioRebalancing/PortfolioServices.h>
+#import <PortfolioRebalancing/PortfolioServices+RetrievePortfolio.h>
+#import <PortfolioRebalancing/PortfolioServices+RetrieveTickerPrices.h>
+#import <PortfolioRebalancing/PortfolioRebalanceStrategy.h>
+#import <PortfolioRebalancing/TargetAllocationStrategy.h>

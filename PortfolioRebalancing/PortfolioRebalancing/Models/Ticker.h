@@ -20,6 +20,5 @@
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initTicker:(NSString*)ticker sharesOwned:(NSUInteger)sharesOwned percentTargetAllocation:(float)targetAllocation;
 - (float)calculateOwnedAmount;
-- (int)balanceNumberOfShares;
 
 @end

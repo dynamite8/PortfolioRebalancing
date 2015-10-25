@@ -8,16 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		2B4DC0C21BDC2A6900775FD5 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA3C1BDC16820001D3F4 /* Portfolio.m */; settings = {ASSET_TAGS = (); }; };
-		2B4DC0C31BDC2C5E00775FD5 /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA401BDC16A80001D3F4 /* Ticker.m */; settings = {ASSET_TAGS = (); }; };
 		2B4DC0C41BDC2C6200775FD5 /* PortfolioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA441BDC17CD0001D3F4 /* PortfolioUtility.m */; settings = {ASSET_TAGS = (); }; };
 		2B61BBC11BDC94A5001E0FA8 /* FinancialPortfolio.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B61BBC01BDC94A5001E0FA8 /* FinancialPortfolio.json */; settings = {ASSET_TAGS = (); }; };
+		2B61BBC61BDD3A07001E0FA8 /* PortfolioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBC41BDD3A07001E0FA8 /* PortfolioManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBC71BDD3A07001E0FA8 /* PortfolioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBC51BDD3A07001E0FA8 /* PortfolioManager.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBC81BDD3A07001E0FA8 /* PortfolioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBC51BDD3A07001E0FA8 /* PortfolioManager.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBD01BDD51CD001E0FA8 /* Ticker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBCE1BDD51CD001E0FA8 /* Ticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBD11BDD51CD001E0FA8 /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBCF1BDD51CD001E0FA8 /* Ticker.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBD21BDD51CD001E0FA8 /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBCF1BDD51CD001E0FA8 /* Ticker.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBD51BDD5206001E0FA8 /* Ticker+TargetAllocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBD31BDD5206001E0FA8 /* Ticker+TargetAllocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBD61BDD5206001E0FA8 /* Ticker+TargetAllocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBD41BDD5206001E0FA8 /* Ticker+TargetAllocation.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBD71BDD5206001E0FA8 /* Ticker+TargetAllocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBD41BDD5206001E0FA8 /* Ticker+TargetAllocation.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBDB1BDD533C001E0FA8 /* PortfolioServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBD91BDD533C001E0FA8 /* PortfolioServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBDC1BDD533C001E0FA8 /* PortfolioServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBDA1BDD533C001E0FA8 /* PortfolioServices.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBDD1BDD533C001E0FA8 /* PortfolioServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBDA1BDD533C001E0FA8 /* PortfolioServices.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBE01BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBDE1BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBE11BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBDF1BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBE21BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBDF1BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBE51BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBE31BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBE61BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBE41BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBE71BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBE41BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBEE1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBEC1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBEF1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBED1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBF01BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBED1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBF31BDD5DB1001E0FA8 /* TargetAllocationStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BBF11BDD5DB1001E0FA8 /* TargetAllocationStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B61BBF41BDD5DB1001E0FA8 /* TargetAllocationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBF21BDD5DB1001E0FA8 /* TargetAllocationStrategy.m */; settings = {ASSET_TAGS = (); }; };
+		2B61BBF51BDD5DB1001E0FA8 /* TargetAllocationStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BBF21BDD5DB1001E0FA8 /* TargetAllocationStrategy.m */; settings = {ASSET_TAGS = (); }; };
 		2B9B2E561BDC008F003CA32F /* PortfolioRebalancing.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9B2E551BDC008F003CA32F /* PortfolioRebalancing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B9B2E5D1BDC008F003CA32F /* PortfolioRebalancing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9B2E521BDC008F003CA32F /* PortfolioRebalancing.framework */; settings = {ASSET_TAGS = (); }; };
 		2B9B2E621BDC008F003CA32F /* PortfolioRebalancingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B2E611BDC008F003CA32F /* PortfolioRebalancingTests.m */; };
 		2BECFA3D1BDC16820001D3F4 /* Portfolio.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BECFA3B1BDC16820001D3F4 /* Portfolio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BECFA3E1BDC16820001D3F4 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA3C1BDC16820001D3F4 /* Portfolio.m */; settings = {ASSET_TAGS = (); }; };
-		2BECFA411BDC16A80001D3F4 /* Ticker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BECFA3F1BDC16A80001D3F4 /* Ticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BECFA421BDC16A80001D3F4 /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA401BDC16A80001D3F4 /* Ticker.m */; settings = {ASSET_TAGS = (); }; };
 		2BECFA451BDC17CD0001D3F4 /* PortfolioUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BECFA431BDC17CD0001D3F4 /* PortfolioUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BECFA461BDC17CD0001D3F4 /* PortfolioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA441BDC17CD0001D3F4 /* PortfolioUtility.m */; settings = {ASSET_TAGS = (); }; };
 		2BECFA5F1BDC1DEE0001D3F4 /* SamplePortfolio.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BECFA5E1BDC1DEE0001D3F4 /* SamplePortfolio.json */; settings = {ASSET_TAGS = (); }; };
@@ -36,6 +57,22 @@
 
 /* Begin PBXFileReference section */
 		2B61BBC01BDC94A5001E0FA8 /* FinancialPortfolio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FinancialPortfolio.json; sourceTree = "<group>"; };
+		2B61BBC41BDD3A07001E0FA8 /* PortfolioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioManager.h; sourceTree = "<group>"; };
+		2B61BBC51BDD3A07001E0FA8 /* PortfolioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioManager.m; sourceTree = "<group>"; };
+		2B61BBCE1BDD51CD001E0FA8 /* Ticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticker.h; sourceTree = "<group>"; };
+		2B61BBCF1BDD51CD001E0FA8 /* Ticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticker.m; sourceTree = "<group>"; };
+		2B61BBD31BDD5206001E0FA8 /* Ticker+TargetAllocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ticker+TargetAllocation.h"; sourceTree = "<group>"; };
+		2B61BBD41BDD5206001E0FA8 /* Ticker+TargetAllocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Ticker+TargetAllocation.m"; sourceTree = "<group>"; };
+		2B61BBD91BDD533C001E0FA8 /* PortfolioServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioServices.h; sourceTree = "<group>"; };
+		2B61BBDA1BDD533C001E0FA8 /* PortfolioServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioServices.m; sourceTree = "<group>"; };
+		2B61BBDE1BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PortfolioServices+RetrievePortfolio.h"; sourceTree = "<group>"; };
+		2B61BBDF1BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PortfolioServices+RetrievePortfolio.m"; sourceTree = "<group>"; };
+		2B61BBE31BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PortfolioServices+RetrieveTickerPrices.h"; sourceTree = "<group>"; };
+		2B61BBE41BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PortfolioServices+RetrieveTickerPrices.m"; sourceTree = "<group>"; };
+		2B61BBEC1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioRebalanceStrategy.h; sourceTree = "<group>"; };
+		2B61BBED1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioRebalanceStrategy.m; sourceTree = "<group>"; };
+		2B61BBF11BDD5DB1001E0FA8 /* TargetAllocationStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetAllocationStrategy.h; sourceTree = "<group>"; };
+		2B61BBF21BDD5DB1001E0FA8 /* TargetAllocationStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetAllocationStrategy.m; sourceTree = "<group>"; };
 		2B9B2E521BDC008F003CA32F /* PortfolioRebalancing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PortfolioRebalancing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9B2E551BDC008F003CA32F /* PortfolioRebalancing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioRebalancing.h; sourceTree = "<group>"; };
 		2B9B2E571BDC008F003CA32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,15 +81,11 @@
 		2B9B2E631BDC008F003CA32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BECFA3B1BDC16820001D3F4 /* Portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portfolio.h; sourceTree = "<group>"; };
 		2BECFA3C1BDC16820001D3F4 /* Portfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portfolio.m; sourceTree = "<group>"; };
-		2BECFA3F1BDC16A80001D3F4 /* Ticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticker.h; sourceTree = "<group>"; };
-		2BECFA401BDC16A80001D3F4 /* Ticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticker.m; sourceTree = "<group>"; };
 		2BECFA431BDC17CD0001D3F4 /* PortfolioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioUtility.h; sourceTree = "<group>"; };
 		2BECFA441BDC17CD0001D3F4 /* PortfolioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioUtility.m; sourceTree = "<group>"; };
 		2BECFA5E1BDC1DEE0001D3F4 /* SamplePortfolio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SamplePortfolio.json; sourceTree = "<group>"; };
 		2BECFA601BDC1EE80001D3F4 /* CurrentPricesForTickers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrentPricesForTickers.json; sourceTree = "<group>"; };
-		A783F78E68A85ABB9543FD0B /* Pods-PortfolioRebalancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortfolioRebalancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PortfolioRebalancing/Pods-PortfolioRebalancing.release.xcconfig"; sourceTree = "<group>"; };
 		AD8BE2BAA964ABEC50724418 /* libPods-PortfolioRebalancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PortfolioRebalancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA65EFB04C980E6DF44B64A1 /* Pods-PortfolioRebalancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortfolioRebalancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PortfolioRebalancing/Pods-PortfolioRebalancing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +107,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B61BBC91BDD3AC3001E0FA8 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BBCA1BDD3AC3001E0FA8 /* RetrievePortfolio */,
+				2B61BBCB1BDD3AC3001E0FA8 /* RetrieveTickerPrices */,
+				2B61BBD91BDD533C001E0FA8 /* PortfolioServices.h */,
+				2B61BBDA1BDD533C001E0FA8 /* PortfolioServices.m */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		2B61BBCA1BDD3AC3001E0FA8 /* RetrievePortfolio */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BBDE1BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.h */,
+				2B61BBDF1BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m */,
+			);
+			path = RetrievePortfolio;
+			sourceTree = "<group>";
+		};
+		2B61BBCB1BDD3AC3001E0FA8 /* RetrieveTickerPrices */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BBE31BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.h */,
+				2B61BBE41BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m */,
+			);
+			path = RetrieveTickerPrices;
+			sourceTree = "<group>";
+		};
+		2B61BBCC1BDD3AC3001E0FA8 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BBD81BDD52DF001E0FA8 /* TargetAllocation */,
+				2B61BBEC1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.h */,
+				2B61BBED1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		2B61BBCD1BDD51CD001E0FA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BBCE1BDD51CD001E0FA8 /* Ticker.h */,
+				2B61BBCF1BDD51CD001E0FA8 /* Ticker.m */,
+				2B61BBD31BDD5206001E0FA8 /* Ticker+TargetAllocation.h */,
+				2B61BBD41BDD5206001E0FA8 /* Ticker+TargetAllocation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B61BBD81BDD52DF001E0FA8 /* TargetAllocation */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BBF11BDD5DB1001E0FA8 /* TargetAllocationStrategy.h */,
+				2B61BBF21BDD5DB1001E0FA8 /* TargetAllocationStrategy.m */,
+			);
+			path = TargetAllocation;
+			sourceTree = "<group>";
+		};
 		2B9B2E481BDC008F003CA32F = {
 			isa = PBXGroup;
 			children = (
 				2B9B2E541BDC008F003CA32F /* PortfolioRebalancing */,
 				2B9B2E601BDC008F003CA32F /* PortfolioRebalancingTests */,
 				2B9B2E531BDC008F003CA32F /* Products */,
-				B6F595DB5AD4D345F65E5F6E /* Pods */,
 				5F78080E0E923204A9E0402C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +189,12 @@
 			isa = PBXGroup;
 			children = (
 				2BECFA5D1BDC1DA90001D3F4 /* Samples */,
+				2B61BBCD1BDD51CD001E0FA8 /* Models */,
 				2BECFA371BDC16640001D3F4 /* Features */,
 				2BECFA3A1BDC16640001D3F4 /* Utilities */,
 				2B9B2E551BDC008F003CA32F /* PortfolioRebalancing.h */,
+				2B61BBC41BDD3A07001E0FA8 /* PortfolioManager.h */,
+				2B61BBC51BDD3A07001E0FA8 /* PortfolioManager.m */,
 				2B9B2E571BDC008F003CA32F /* Info.plist */,
 			);
 			path = PortfolioRebalancing;
@@ -118,6 +212,8 @@
 		2BECFA371BDC16640001D3F4 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2B61BBC91BDD3AC3001E0FA8 /* Webservice */,
+				2B61BBCC1BDD3AC3001E0FA8 /* Strategy */,
 				2BECFA381BDC16640001D3F4 /* Portfolio */,
 			);
 			path = Features;
@@ -126,20 +222,10 @@
 		2BECFA381BDC16640001D3F4 /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
-				2BECFA391BDC16640001D3F4 /* Models */,
 				2BECFA3B1BDC16820001D3F4 /* Portfolio.h */,
 				2BECFA3C1BDC16820001D3F4 /* Portfolio.m */,
 			);
 			path = Portfolio;
-			sourceTree = "<group>";
-		};
-		2BECFA391BDC16640001D3F4 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2BECFA3F1BDC16A80001D3F4 /* Ticker.h */,
-				2BECFA401BDC16A80001D3F4 /* Ticker.m */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		2BECFA3A1BDC16640001D3F4 /* Utilities */ = {
@@ -169,15 +255,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B6F595DB5AD4D345F65E5F6E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA65EFB04C980E6DF44B64A1 /* Pods-PortfolioRebalancing.debug.xcconfig */,
-				A783F78E68A85ABB9543FD0B /* Pods-PortfolioRebalancing.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -185,8 +262,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B61BBC61BDD3A07001E0FA8 /* PortfolioManager.h in Headers */,
+				2B61BBDB1BDD533C001E0FA8 /* PortfolioServices.h in Headers */,
+				2B61BBE51BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.h in Headers */,
+				2B61BBE01BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.h in Headers */,
+				2B61BBEE1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.h in Headers */,
 				2BECFA3D1BDC16820001D3F4 /* Portfolio.h in Headers */,
-				2BECFA411BDC16A80001D3F4 /* Ticker.h in Headers */,
+				2B61BBF31BDD5DB1001E0FA8 /* TargetAllocationStrategy.h in Headers */,
+				2B61BBD01BDD51CD001E0FA8 /* Ticker.h in Headers */,
+				2B61BBD51BDD5206001E0FA8 /* Ticker+TargetAllocation.h in Headers */,
 				2B9B2E561BDC008F003CA32F /* PortfolioRebalancing.h in Headers */,
 				2BECFA451BDC17CD0001D3F4 /* PortfolioUtility.h in Headers */,
 			);
@@ -291,9 +375,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B61BBD61BDD5206001E0FA8 /* Ticker+TargetAllocation.m in Sources */,
 				2BECFA461BDC17CD0001D3F4 /* PortfolioUtility.m in Sources */,
+				2B61BBDC1BDD533C001E0FA8 /* PortfolioServices.m in Sources */,
+				2B61BBF41BDD5DB1001E0FA8 /* TargetAllocationStrategy.m in Sources */,
+				2B61BBD11BDD51CD001E0FA8 /* Ticker.m in Sources */,
 				2BECFA3E1BDC16820001D3F4 /* Portfolio.m in Sources */,
-				2BECFA421BDC16A80001D3F4 /* Ticker.m in Sources */,
+				2B61BBC71BDD3A07001E0FA8 /* PortfolioManager.m in Sources */,
+				2B61BBE61BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m in Sources */,
+				2B61BBE11BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m in Sources */,
+				2B61BBEF1BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +392,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B61BBF51BDD5DB1001E0FA8 /* TargetAllocationStrategy.m in Sources */,
 				2B4DC0C21BDC2A6900775FD5 /* Portfolio.m in Sources */,
-				2B4DC0C31BDC2C5E00775FD5 /* Ticker.m in Sources */,
+				2B61BBE21BDD535A001E0FA8 /* PortfolioServices+RetrievePortfolio.m in Sources */,
+				2B61BBC81BDD3A07001E0FA8 /* PortfolioManager.m in Sources */,
+				2B61BBD71BDD5206001E0FA8 /* Ticker+TargetAllocation.m in Sources */,
 				2B9B2E621BDC008F003CA32F /* PortfolioRebalancingTests.m in Sources */,
 				2B4DC0C41BDC2C6200775FD5 /* PortfolioUtility.m in Sources */,
+				2B61BBD21BDD51CD001E0FA8 /* Ticker.m in Sources */,
+				2B61BBF01BDD5CDF001E0FA8 /* PortfolioRebalanceStrategy.m in Sources */,
+				2B61BBE71BDD55A8001E0FA8 /* PortfolioServices+RetrieveTickerPrices.m in Sources */,
+				2B61BBDD1BDD533C001E0FA8 /* PortfolioServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,54 +417,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B9B2E641BDC008F003CA32F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2B9B2E651BDC008F003CA32F /* Release */ = {
+		2B61BBF61BDD7896001E0FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,11 +456,10 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		2B9B2E671BDC008F003CA32F /* Debug */ = {
+		2B61BBF71BDD7896001E0FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA65EFB04C980E6DF44B64A1 /* Pods-PortfolioRebalancing.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -424,24 +474,7 @@
 			};
 			name = Debug;
 		};
-		2B9B2E681BDC008F003CA32F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A783F78E68A85ABB9543FD0B /* Pods-PortfolioRebalancing.release.xcconfig */;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PortfolioRebalancing/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ttgs.PortfolioRebalancing;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2B9B2E6A1BDC008F003CA32F /* Debug */ = {
+		2B61BBF81BDD7896001E0FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = PortfolioRebalancingTests/Info.plist;
@@ -450,16 +483,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
-		};
-		2B9B2E6B1BDC008F003CA32F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PortfolioRebalancingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ttgs.PortfolioRebalancingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -467,29 +490,26 @@
 		2B9B2E4C1BDC008F003CA32F /* Build configuration list for PBXProject "PortfolioRebalancing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B9B2E641BDC008F003CA32F /* Debug */,
-				2B9B2E651BDC008F003CA32F /* Release */,
+				2B61BBF61BDD7896001E0FA8 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2B9B2E661BDC008F003CA32F /* Build configuration list for PBXNativeTarget "PortfolioRebalancing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B9B2E671BDC008F003CA32F /* Debug */,
-				2B9B2E681BDC008F003CA32F /* Release */,
+				2B61BBF71BDD7896001E0FA8 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2B9B2E691BDC008F003CA32F /* Build configuration list for PBXNativeTarget "PortfolioRebalancingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B9B2E6A1BDC008F003CA32F /* Debug */,
-				2B9B2E6B1BDC008F003CA32F /* Release */,
+				2B61BBF81BDD7896001E0FA8 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

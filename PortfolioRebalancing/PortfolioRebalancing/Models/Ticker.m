@@ -28,10 +28,4 @@
     return self.sharesOwned * self.sharePrice;
 }
 
-- (int)balanceNumberOfShares {
-    
-    int numOfShares = @(roundf((self.desiredTargetAmount - [self calculateOwnedAmount])/self.sharePrice)).intValue;
-    return numOfShares;
-}
-
 @end
