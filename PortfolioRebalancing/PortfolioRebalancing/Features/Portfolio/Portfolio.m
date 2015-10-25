@@ -17,26 +17,21 @@ static const NSString *keySharesOwned = @"sharesOwned";
 static const NSString *keyPercentTargetAllocation = @"targetAllocation";
 
 //designated initializer
-- (instancetype)init {
+- (instancetype)initWithListOfTickers:(NSDictionary *)inputList {
     
     self = [super init];
     
     if (self) {
         self.listOfTickers = [[NSMutableArray alloc] init];
+        [self parseListOfTickers:inputList];
     }
     
     return self;
 }
 
-- (instancetype)initWithListOfTickers:(NSDictionary *)inputList {
-    
-    self = [self init];
-    
-    [self parseListOfTickers:inputList];
-    
-    return self;
-}
-
+/**
+ * Reusable method to parse the list of tickers for a portfolio
+ */
 - (void)parseListOfTickers:(NSDictionary*)inputList {
     
     for (NSString* key in inputList.allKeys) {
@@ -44,11 +39,10 @@ static const NSString *keyPercentTargetAllocation = @"targetAllocation";
         
         NSLog(@"%@ = %@", key, dictionary);
         
-        Ticker *ticker = [[Ticker alloc] init];
-        ticker.tickerSymbol = (NSString*)key;
-        ticker.sharesOwned = [(NSNumber*)[dictionary objectForKey:keySharesOwned] intValue];
-        ticker.percentTargetAllocation = [(NSNumber*)[dictionary objectForKey:keyPercentTargetAllocation] floatValue];
-        ticker.sharePrice = [self getTickerSharePrice:ticker.tickerSymbol];
+        int sharesOwned = [(NSNumber*)[dictionary objectForKey:keySharesOwned] intValue];
+        int percentTargetAllocation = [(NSNumber*)[dictionary objectForKey:keyPercentTargetAllocation] floatValue];
+        
+        Ticker *ticker = [[Ticker alloc] initTicker:key sharesOwned:sharesOwned percentTargetAllocation:percentTargetAllocation];
         
         [self.listOfTickers addObject:ticker];
     }
@@ -60,9 +54,12 @@ static const NSString *keyPercentTargetAllocation = @"targetAllocation";
     [self parseListOfTickers:dictionary];
 }
 
+/**
+ * Returns recommendations for the transactions to re-balance the portfolio
+ */
 - (NSString*)getRebalancedAllocation {
     
-    [self calculateActualAllocation];
+    [self calculateActualAndDesiredAllocation];
     
     NSMutableArray *transactions = [[NSMutableArray alloc] init];
     
@@ -79,8 +76,10 @@ static const NSString *keyPercentTargetAllocation = @"targetAllocation";
     return [[transactions copy] componentsJoinedByString:@", "];
 }
 
-
-- (void)calculateActualAllocation {
+/**
+ * This function calculates the actual allocation and the re-balanced amount for the portfolio
+ */
+- (void)calculateActualAndDesiredAllocation {
     
     float sumTotal = 0;
     
@@ -89,13 +88,20 @@ static const NSString *keyPercentTargetAllocation = @"targetAllocation";
     }
     
     for (Ticker* ticker in self.listOfTickers) {
+        ticker.sharePrice = [self getTickerSharePrice:ticker.tickerSymbol];
         ticker.actualAllocation =  (ticker.calculateOwnedAmount/sumTotal)*100;
         ticker.desiredTargetAmount = sumTotal * ticker.percentTargetAllocation/100;
     }
 }
 
+/**
+ * The current price of the shares can vary, so we have extracted this as a separate
+ * call to retrieve the price from a file. In the future, the plan is to retrieve this
+ * from a Web service.
+ */
 - (float)getTickerSharePrice:(NSString*)ticker {
     
+    //TODO: use a Web service
     if (self.listOfCurrentTickerPrice == nil) {
         self.listOfCurrentTickerPrice = [PortfolioUtility getResponseFromJSONFileName:@"CurrentPricesForTickers"];
     }

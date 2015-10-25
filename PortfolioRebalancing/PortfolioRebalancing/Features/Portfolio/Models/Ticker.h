@@ -17,6 +17,7 @@
 @property (nonatomic) float sharePrice;
 @property (nonatomic) float desiredTargetAmount;
 
+- (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initTicker:(NSString*)ticker sharesOwned:(NSUInteger)sharesOwned percentTargetAllocation:(float)targetAllocation;
 - (float)calculateOwnedAmount;
 - (int)balanceNumberOfShares;
