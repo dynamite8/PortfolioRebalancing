@@ -11,11 +11,13 @@ For this exercise, the problem statement is as follows:
 Create a portfolio rebalancing module. Each WealthSimple customer has a portfolio with a set of investments along with target allocations for these investments. However, as share prices fluctuate, the actual allocations of investments may diverge from the target allocations. For example:
 
 
-| Ticker  | Target allocation | Actual allocation | Shares owned | Share price
-| ------------- | ------------- || ------------- || ------------- || ------------- |
+<pre>
+| Ticker  | Target allocation | Actual allocation | Shares owned | Share price |
+| ------- | ----------------- | ----------------- | ------------ | ----------- |
 | GOOG | 60% | 50.96% | 52 | $98 |
 | AAPL | 30% | 29.92% | 136 | $22 |
 | TSLA | 10% | 19.12% | 239 | $8 |
+</pre>
 
 The job of the rebalancing module is to buy or sell shares to bring the actual allocation of investments as close as possible to the target allocations.
 
@@ -30,10 +32,11 @@ For the second approach, I tried to do was rewriting the framework to use a mana
 - Retrieving the current share prices for tickers in the portfolio
 - Returning the transactions to rebalance the portfolio using a strategy
 
-The goal of refactoring the code was to decouple the strategy, portfolio, update of the ticker share prices.  This approach further allows the developers to extend the strategy and implement other rebalancing strategy if desired.  Any new strategies will need to implement the protocol to provide the necessary functionality.  I have also simulated the retrieval of the portfolio and ticker prices via webservices (or files for now).  Overall, the goal was to make the framework easily extendable to add additional strategies, and other features.
+The goal of refactoring the code was to decouple the strategy, portfolio, update of the ticker share prices.  This approach further allows the developers to extend the strategy and implement other rebalancing strategy if desired.  Any new strategies will need to implement the protocol to provide the necessary functionality.  I have also simulated the retrieval of the portfolio and ticker prices via Web services (or files for now).  Overall, the goal was to make the framework easily extendable to add additional strategies, and other features.
 
 The organization of the file structure was also intended to make the files easier to locate and the code easier to read.
 
+<pre>
 |-- PortfolioRebalancing
     |-- Info.plist
     |-- PortfolioManager.h
@@ -70,7 +73,7 @@ The organization of the file structure was also intended to make the files easie
     |-- Utilities
         |-- PortfolioUtility.h
         |-- PortfolioUtility.m
-
+</pre>
 
 Trade-offs
 ------------------------------
