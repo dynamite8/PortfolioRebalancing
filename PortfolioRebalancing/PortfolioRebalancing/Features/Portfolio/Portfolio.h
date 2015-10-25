@@ -14,7 +14,8 @@
 @property (strong, nonatomic) NSDictionary *listOfCurrentTickerPrice;
 
 - (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithListOfTickers:(NSDictionary *)inputList
+- (instancetype)initWithListOfTickers:(NSDictionary *)inputList;
+- (instancetype)initWithListOfTickersFile:(NSString *)filename;
 - (void)parseListOfTickersFromFile:(NSString*)filename;
 - (NSString*)getRebalancedAllocation;
 

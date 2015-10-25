@@ -6,226 +6,43 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		08F08625B3A18F0E9466F62D1648E9F1 /* KZPropertyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9C5A5E64D0E00BDA9D8D210C49C8A /* KZPropertyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1356999B69D10FBF7B46993A017607BA /* KZPropertyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48384F0D4CD2531BDBFF75B6BCF483F5 /* KZPropertyMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2076392185793571B20913FED2CE6AD1 /* Pods-PortfolioRebalancing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA4FD195097995D23F7F02C4E3DB87B /* Pods-PortfolioRebalancing-dummy.m */; };
-		50C3B63636ABC65D53F8F61E5298F85A /* KZPropertyMapperCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFDA6D6917BF8466C99871D5BAD543E /* KZPropertyMapperCommon.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		53586965B70B572393D7A2B5ADC4A611 /* KZPropertyMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 849148DF130FE4C3F8EED873EEC722B9 /* KZPropertyMapper-dummy.m */; };
-		55CB6544BFCAB97335A0533E0559D6CB /* KZPropertyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DF83633CF40AD3A291B6EEBE80833 /* KZPropertyDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5AFECA20AA9F2A4E3FF71179CAF30FA3 /* KZPropertyMapperCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D048C7BD00B28B3BCBA7A85FDEBDDD3 /* KZPropertyMapperCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A2516D2C10CA0A22C06992E8DF48C5C /* KZPropertyDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4767CED506344A22F3920B6CB03E38F7 /* KZPropertyDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8554FB010FEFF1F112E6AE565F7A0793 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D190B8553BD3314394B7A68597ECD513 /* CoreData.framework */; };
-		87AF254A3DF8A8804F06B933B2C170EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DCF029181227DFB891B1A2658BBCB2 /* Foundation.framework */; };
-		96C1CA1E63424128940E3A9945DE87C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DCF029181227DFB891B1A2658BBCB2 /* Foundation.framework */; };
-		C1A4BA549DA7A34C75C0AADE638F8921 /* KZPropertyDescriptor+Validators.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2F6BB20689BC2704A009E636CB531 /* KZPropertyDescriptor+Validators.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FEBE4023C96CA0ACB6148C54C9EB7428 /* KZPropertyDescriptor+Validators.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FACAD37481408A691AADA68CEA9F496 /* KZPropertyDescriptor+Validators.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9A748C86B7DC7EE36C08B23C56E1D459 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E65597A5F72F7A10C159E34A191E4F42;
-			remoteInfo = KZPropertyMapper;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		03562EB0753F207694FB3F1D8D265878 /* KZPropertyMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KZPropertyMapper-prefix.pch"; sourceTree = "<group>"; };
-		1A9F3E7514F554420FF4C4B8C5366D5C /* libPods-PortfolioRebalancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PortfolioRebalancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FACAD37481408A691AADA68CEA9F496 /* KZPropertyDescriptor+Validators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KZPropertyDescriptor+Validators.h"; path = "KZPropertyMapper/KZPropertyDescriptor+Validators.h"; sourceTree = "<group>"; };
-		3C4DF83633CF40AD3A291B6EEBE80833 /* KZPropertyDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZPropertyDescriptor.m; path = KZPropertyMapper/KZPropertyDescriptor.m; sourceTree = "<group>"; };
-		4767CED506344A22F3920B6CB03E38F7 /* KZPropertyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZPropertyDescriptor.h; path = KZPropertyMapper/KZPropertyDescriptor.h; sourceTree = "<group>"; };
-		48384F0D4CD2531BDBFF75B6BCF483F5 /* KZPropertyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZPropertyMapper.m; path = KZPropertyMapper/KZPropertyMapper.m; sourceTree = "<group>"; };
-		4CDFECDD6AF7F4FD85C37929CC899216 /* libKZPropertyMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKZPropertyMapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D048C7BD00B28B3BCBA7A85FDEBDDD3 /* KZPropertyMapperCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZPropertyMapperCommon.h; path = KZPropertyMapper/KZPropertyMapperCommon.h; sourceTree = "<group>"; };
-		5DA4FD195097995D23F7F02C4E3DB87B /* Pods-PortfolioRebalancing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PortfolioRebalancing-dummy.m"; sourceTree = "<group>"; };
-		6AFDA6D6917BF8466C99871D5BAD543E /* KZPropertyMapperCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KZPropertyMapperCommon.m; path = KZPropertyMapper/KZPropertyMapperCommon.m; sourceTree = "<group>"; };
-		849148DF130FE4C3F8EED873EEC722B9 /* KZPropertyMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KZPropertyMapper-dummy.m"; sourceTree = "<group>"; };
-		85D2F6BB20689BC2704A009E636CB531 /* KZPropertyDescriptor+Validators.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KZPropertyDescriptor+Validators.m"; path = "KZPropertyMapper/KZPropertyDescriptor+Validators.m"; sourceTree = "<group>"; };
-		8F76265DA343F067CF5B9DD2941BFD93 /* Pods-PortfolioRebalancing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PortfolioRebalancing-resources.sh"; sourceTree = "<group>"; };
-		9B236AD45BE885FD04D4CF78C96D1C4E /* Pods-PortfolioRebalancing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PortfolioRebalancing-acknowledgements.plist"; sourceTree = "<group>"; };
-		A05A54BA6932765834048C80945F3D5E /* KZPropertyMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZPropertyMapper.xcconfig; sourceTree = "<group>"; };
-		A7EA4D1B4E8C78620E713B6BFEDA6E3D /* Pods-PortfolioRebalancing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PortfolioRebalancing-frameworks.sh"; sourceTree = "<group>"; };
-		B8DCF029181227DFB891B1A2658BBCB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D190B8553BD3314394B7A68597ECD513 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		E9D9C5A5E64D0E00BDA9D8D210C49C8A /* KZPropertyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KZPropertyMapper.h; path = KZPropertyMapper/KZPropertyMapper.h; sourceTree = "<group>"; };
-		EF885E20D42A1FCC5F9073721E68B877 /* Pods-PortfolioRebalancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PortfolioRebalancing.debug.xcconfig"; sourceTree = "<group>"; };
-		FC584BC472CCFAE364563291DB49E02E /* Pods-PortfolioRebalancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PortfolioRebalancing.release.xcconfig"; sourceTree = "<group>"; };
-		FC691AF40C4D04CC71A5E74A01DC3034 /* Pods-PortfolioRebalancing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PortfolioRebalancing-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		05D8995711704316F68C511E97627D5A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96C1CA1E63424128940E3A9945DE87C5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0037CA838774671432612454481BB7E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8554FB010FEFF1F112E6AE565F7A0793 /* CoreData.framework in Frameworks */,
-				87AF254A3DF8A8804F06B933B2C170EE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		2E58A9294E3A183927BC26690021E0CA /* iOS */ = {
+		09C5E90726D2521A760312DBF50D9358 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D190B8553BD3314394B7A68597ECD513 /* CoreData.framework */,
-				B8DCF029181227DFB891B1A2658BBCB2 /* Foundation.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		4104C8759DDE42294144877D9DE9B721 /* Pods-PortfolioRebalancing */ = {
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC691AF40C4D04CC71A5E74A01DC3034 /* Pods-PortfolioRebalancing-acknowledgements.markdown */,
-				9B236AD45BE885FD04D4CF78C96D1C4E /* Pods-PortfolioRebalancing-acknowledgements.plist */,
-				5DA4FD195097995D23F7F02C4E3DB87B /* Pods-PortfolioRebalancing-dummy.m */,
-				A7EA4D1B4E8C78620E713B6BFEDA6E3D /* Pods-PortfolioRebalancing-frameworks.sh */,
-				8F76265DA343F067CF5B9DD2941BFD93 /* Pods-PortfolioRebalancing-resources.sh */,
-				EF885E20D42A1FCC5F9073721E68B877 /* Pods-PortfolioRebalancing.debug.xcconfig */,
-				FC584BC472CCFAE364563291DB49E02E /* Pods-PortfolioRebalancing.release.xcconfig */,
-			);
-			name = "Pods-PortfolioRebalancing";
-			path = "Target Support Files/Pods-PortfolioRebalancing";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2E58A9294E3A183927BC26690021E0CA /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5E5F0AFCBEACDB01760D9D6A17198A28 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A05A54BA6932765834048C80945F3D5E /* KZPropertyMapper.xcconfig */,
-				849148DF130FE4C3F8EED873EEC722B9 /* KZPropertyMapper-dummy.m */,
-				03562EB0753F207694FB3F1D8D265878 /* KZPropertyMapper-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KZPropertyMapper";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				A6FF658B9C4A1D4E763C33BA5DA7D8E8 /* Pods */,
-				B2594B45C908A6C8B8966A7007B4E678 /* Products */,
-				F9A30F31EE052FD4B1368AB6405C06E5 /* Targets Support Files */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				09C5E90726D2521A760312DBF50D9358 /* Products */,
+				F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A6FF658B9C4A1D4E763C33BA5DA7D8E8 /* Pods */ = {
+		F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFF8F48D8301419D2B3954BD16E95ABA /* KZPropertyMapper */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B2594B45C908A6C8B8966A7007B4E678 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4CDFECDD6AF7F4FD85C37929CC899216 /* libKZPropertyMapper.a */,
-				1A9F3E7514F554420FF4C4B8C5366D5C /* libPods-PortfolioRebalancing.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BFF8F48D8301419D2B3954BD16E95ABA /* KZPropertyMapper */ = {
-			isa = PBXGroup;
-			children = (
-				4767CED506344A22F3920B6CB03E38F7 /* KZPropertyDescriptor.h */,
-				3C4DF83633CF40AD3A291B6EEBE80833 /* KZPropertyDescriptor.m */,
-				2FACAD37481408A691AADA68CEA9F496 /* KZPropertyDescriptor+Validators.h */,
-				85D2F6BB20689BC2704A009E636CB531 /* KZPropertyDescriptor+Validators.m */,
-				E9D9C5A5E64D0E00BDA9D8D210C49C8A /* KZPropertyMapper.h */,
-				48384F0D4CD2531BDBFF75B6BCF483F5 /* KZPropertyMapper.m */,
-				4D048C7BD00B28B3BCBA7A85FDEBDDD3 /* KZPropertyMapperCommon.h */,
-				6AFDA6D6917BF8466C99871D5BAD543E /* KZPropertyMapperCommon.m */,
-				5E5F0AFCBEACDB01760D9D6A17198A28 /* Support Files */,
-			);
-			path = KZPropertyMapper;
-			sourceTree = "<group>";
-		};
-		F9A30F31EE052FD4B1368AB6405C06E5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4104C8759DDE42294144877D9DE9B721 /* Pods-PortfolioRebalancing */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		63271E02E0BDFE2C7AB9D8473122958F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FEBE4023C96CA0ACB6148C54C9EB7428 /* KZPropertyDescriptor+Validators.h in Headers */,
-				7A2516D2C10CA0A22C06992E8DF48C5C /* KZPropertyDescriptor.h in Headers */,
-				08F08625B3A18F0E9466F62D1648E9F1 /* KZPropertyMapper.h in Headers */,
-				5AFECA20AA9F2A4E3FF71179CAF30FA3 /* KZPropertyMapperCommon.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		E65597A5F72F7A10C159E34A191E4F42 /* KZPropertyMapper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF0EFA9252BF3E9451E17BD6CB77B00E /* Build configuration list for PBXNativeTarget "KZPropertyMapper" */;
-			buildPhases = (
-				67F335C36B762DDAF3312DC930B01946 /* Sources */,
-				A0037CA838774671432612454481BB7E /* Frameworks */,
-				63271E02E0BDFE2C7AB9D8473122958F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KZPropertyMapper;
-			productName = KZPropertyMapper;
-			productReference = 4CDFECDD6AF7F4FD85C37929CC899216 /* libKZPropertyMapper.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EF8EC8E1F119B306FD7EF95DF854A666 /* Pods-PortfolioRebalancing */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20F5751D83EC2F741B04FF15BE1F8E6F /* Build configuration list for PBXNativeTarget "Pods-PortfolioRebalancing" */;
-			buildPhases = (
-				C9D4E870E0FEB713D8879840EC3CA8A8 /* Sources */,
-				05D8995711704316F68C511E97627D5A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				16C158697F54AF6E736BE23C2A939766 /* PBXTargetDependency */,
-			);
-			name = "Pods-PortfolioRebalancing";
-			productName = "Pods-PortfolioRebalancing";
-			productReference = 1A9F3E7514F554420FF4C4B8C5366D5C /* libPods-PortfolioRebalancing.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
@@ -242,101 +59,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B2594B45C908A6C8B8966A7007B4E678 /* Products */;
+			productRefGroup = 09C5E90726D2521A760312DBF50D9358 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E65597A5F72F7A10C159E34A191E4F42 /* KZPropertyMapper */,
-				EF8EC8E1F119B306FD7EF95DF854A666 /* Pods-PortfolioRebalancing */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		67F335C36B762DDAF3312DC930B01946 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1A4BA549DA7A34C75C0AADE638F8921 /* KZPropertyDescriptor+Validators.m in Sources */,
-				55CB6544BFCAB97335A0533E0559D6CB /* KZPropertyDescriptor.m in Sources */,
-				53586965B70B572393D7A2B5ADC4A611 /* KZPropertyMapper-dummy.m in Sources */,
-				1356999B69D10FBF7B46993A017607BA /* KZPropertyMapper.m in Sources */,
-				50C3B63636ABC65D53F8F61E5298F85A /* KZPropertyMapperCommon.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9D4E870E0FEB713D8879840EC3CA8A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2076392185793571B20913FED2CE6AD1 /* Pods-PortfolioRebalancing-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		16C158697F54AF6E736BE23C2A939766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KZPropertyMapper;
-			target = E65597A5F72F7A10C159E34A191E4F42 /* KZPropertyMapper */;
-			targetProxy = 9A748C86B7DC7EE36C08B23C56E1D459 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		122F1BA56F5158EC3F5D952C214F88AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF885E20D42A1FCC5F9073721E68B877 /* Pods-PortfolioRebalancing.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6D315D825C2222143325096F6E3AF6B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A05A54BA6932765834048C80945F3D5E /* KZPropertyMapper.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KZPropertyMapper/KZPropertyMapper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7333F4C6BA2EAC139EF3C7F0BB39272C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC584BC472CCFAE364563291DB49E02E /* Pods-PortfolioRebalancing.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,24 +104,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		ACBABC47227C867A4F816D2FE040DA35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A05A54BA6932765834048C80945F3D5E /* KZPropertyMapper.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KZPropertyMapper/KZPropertyMapper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -431,29 +144,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20F5751D83EC2F741B04FF15BE1F8E6F /* Build configuration list for PBXNativeTarget "Pods-PortfolioRebalancing" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				122F1BA56F5158EC3F5D952C214F88AF /* Debug */,
-				7333F4C6BA2EAC139EF3C7F0BB39272C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
 				FB45FFD90572718D82AB9092B750F0CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF0EFA9252BF3E9451E17BD6CB77B00E /* Build configuration list for PBXNativeTarget "KZPropertyMapper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACBABC47227C867A4F816D2FE040DA35 /* Debug */,
-				6D315D825C2222143325096F6E3AF6B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -29,6 +29,11 @@ static const NSString *keyPercentTargetAllocation = @"targetAllocation";
     return self;
 }
 
+- (instancetype)initWithListOfTickersFile:(NSString *)filename {
+    
+    return [self initWithListOfTickers:[PortfolioUtility getResponseFromJSONFileName:filename]];
+}
+
 /**
  * Reusable method to parse the list of tickers for a portfolio
  */
@@ -84,11 +89,11 @@ static const NSString *keyPercentTargetAllocation = @"targetAllocation";
     float sumTotal = 0;
     
     for (Ticker* ticker in self.listOfTickers) {
+        ticker.sharePrice = [self getTickerSharePrice:ticker.tickerSymbol];
         sumTotal += ticker.calculateOwnedAmount;
     }
     
     for (Ticker* ticker in self.listOfTickers) {
-        ticker.sharePrice = [self getTickerSharePrice:ticker.tickerSymbol];
         ticker.actualAllocation =  (ticker.calculateOwnedAmount/sumTotal)*100;
         ticker.desiredTargetAmount = sumTotal * ticker.percentTargetAllocation/100;
     }

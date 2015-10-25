@@ -27,8 +27,7 @@
 
 - (void)testParsingPortfolioFromFile {
     
-    Portfolio *portfolio = [[Portfolio alloc] init];
-    [portfolio parseListOfTickersFromFile:@"SamplePortfolio"];
+    Portfolio *portfolio = [[Portfolio alloc] initWithListOfTickersFile:@"SamplePortfolio"];
     NSString *expected = @"buy 9 of GOOG, sell 114 of TSLA";
     NSString *result = [portfolio getRebalancedAllocation];
     XCTAssertTrue([result isEqualToString:expected],

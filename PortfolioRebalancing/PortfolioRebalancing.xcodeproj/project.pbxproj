@@ -203,7 +203,6 @@
 				2B9B2E4E1BDC008F003CA32F /* Frameworks */,
 				2B9B2E4F1BDC008F003CA32F /* Headers */,
 				2B9B2E501BDC008F003CA32F /* Resources */,
-				44DB5F0ECBD3AFABB43CFF82 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,21 +286,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44DB5F0ECBD3AFABB43CFF82 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PortfolioRebalancing/Pods-PortfolioRebalancing-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		92D596212A6F702BE7D5262E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

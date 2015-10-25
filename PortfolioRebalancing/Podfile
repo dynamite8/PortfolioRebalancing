@@ -7,8 +7,6 @@ xcodeproj 'PortfolioRebalancing.xcodeproj'
 
 target 'PortfolioRebalancing' do
 
-pod "KZPropertyMapper"
-
 end
 
 target 'PortfolioRebalancingTests' do
