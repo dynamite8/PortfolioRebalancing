@@ -48,7 +48,7 @@ This program should not have any UI. It should take in the current state of inve
 
 Technical decisions
 ------------------------------
-Since there is no UI for the program, I have decided to create a reusable iOS framework using Objective-C.  The first version of the framework is captured in the tag named v0.1.1_20151025\_1814.  This version solves the problem and contains couple of test cases to test the functionality of rebalancing a portfolio.  It is working as expected.
+Since there is no UI for the program, I have decided to create a reusable iOS framework using Objective-C.  The first version of the framework is captured in the tag named v0.1.2_20151025\_2251.  This version solves the problem and contains couple of test cases to test the functionality of rebalancing a portfolio.  It is working as expected.
 
 For the second approach, I tried to do was rewriting the framework to use a manager concept, which is a singleton or shared instance in the framework. This Portfolio manager is in charge of the following:
 - Initiating the portfolio
