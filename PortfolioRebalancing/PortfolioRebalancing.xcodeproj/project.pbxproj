@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08FA70560D47462BE6C84E13 /* libPods-PortfolioRebalancing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BE2BAA964ABEC50724418 /* libPods-PortfolioRebalancing.a */; };
 		2B4DC0C21BDC2A6900775FD5 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA3C1BDC16820001D3F4 /* Portfolio.m */; settings = {ASSET_TAGS = (); }; };
 		2B4DC0C31BDC2C5E00775FD5 /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA401BDC16A80001D3F4 /* Ticker.m */; settings = {ASSET_TAGS = (); }; };
 		2B4DC0C41BDC2C6200775FD5 /* PortfolioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECFA441BDC17CD0001D3F4 /* PortfolioUtility.m */; settings = {ASSET_TAGS = (); }; };
@@ -49,9 +48,7 @@
 		2BECFA441BDC17CD0001D3F4 /* PortfolioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioUtility.m; sourceTree = "<group>"; };
 		2BECFA5E1BDC1DEE0001D3F4 /* SamplePortfolio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SamplePortfolio.json; sourceTree = "<group>"; };
 		2BECFA601BDC1EE80001D3F4 /* CurrentPricesForTickers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CurrentPricesForTickers.json; sourceTree = "<group>"; };
-		A783F78E68A85ABB9543FD0B /* Pods-PortfolioRebalancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortfolioRebalancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PortfolioRebalancing/Pods-PortfolioRebalancing.release.xcconfig"; sourceTree = "<group>"; };
 		AD8BE2BAA964ABEC50724418 /* libPods-PortfolioRebalancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PortfolioRebalancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA65EFB04C980E6DF44B64A1 /* Pods-PortfolioRebalancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortfolioRebalancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PortfolioRebalancing/Pods-PortfolioRebalancing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08FA70560D47462BE6C84E13 /* libPods-PortfolioRebalancing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +76,6 @@
 				2B9B2E541BDC008F003CA32F /* PortfolioRebalancing */,
 				2B9B2E601BDC008F003CA32F /* PortfolioRebalancingTests */,
 				2B9B2E531BDC008F003CA32F /* Products */,
-				B6F595DB5AD4D345F65E5F6E /* Pods */,
 				5F78080E0E923204A9E0402C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -168,15 +163,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B6F595DB5AD4D345F65E5F6E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA65EFB04C980E6DF44B64A1 /* Pods-PortfolioRebalancing.debug.xcconfig */,
-				A783F78E68A85ABB9543FD0B /* Pods-PortfolioRebalancing.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -198,7 +184,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B9B2E661BDC008F003CA32F /* Build configuration list for PBXNativeTarget "PortfolioRebalancing" */;
 			buildPhases = (
-				92D596212A6F702BE7D5262E /* Check Pods Manifest.lock */,
 				2B9B2E4D1BDC008F003CA32F /* Sources */,
 				2B9B2E4E1BDC008F003CA32F /* Frameworks */,
 				2B9B2E4F1BDC008F003CA32F /* Headers */,
@@ -284,24 +269,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		92D596212A6F702BE7D5262E /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B9B2E4D1BDC008F003CA32F /* Sources */ = {
@@ -426,7 +393,6 @@
 		};
 		2B9B2E671BDC008F003CA32F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA65EFB04C980E6DF44B64A1 /* Pods-PortfolioRebalancing.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -443,7 +409,6 @@
 		};
 		2B9B2E681BDC008F003CA32F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A783F78E68A85ABB9543FD0B /* Pods-PortfolioRebalancing.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
