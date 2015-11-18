@@ -8,7 +8,6 @@
 
 #import "PortfolioManager.h"
 
-#import "Portfolio.h"
 #import "TargetAllocationStrategy.h"
 #import "PortfolioServices+RetrieveTickerPrices.h"
 #import "Ticker+TargetAllocation.h"
