@@ -8,39 +8,9 @@ Functional spec
 
 For this exercise, the problem statement is as follows:
 
-Create a portfolio rebalancing module. Each WealthSimple customer has a portfolio with a set of investments along with target allocations for these investments. However, as share prices fluctuate, the actual allocations of investments may diverge from the target allocations. For example:
+Create a portfolio rebalancing module. Each customer has a portfolio with a set of investments along with target allocations for these investments. However, as share prices fluctuate, the actual allocations of investments may diverge from the target allocations. For example:
 
-<table><thead>
-<tr>
-<th>Ticker</th>
-<th>Target allocation</th>
-<th>Actual allocation</th>
-<th>Shares owned</th>
-<th>Share price</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>GOOG</td>
-<td>60%</td>
-<td>50.96%</td>
-<td>52</td>
-<td>$98</td>
-</tr>
-<tr>
-<td>AAPL</td>
-<td>30%</td>
-<td>29.92%</td>
-<td>136</td>
-<td>$22</td>
-</tr>
-<tr>
-<td>TSLA</td>
-<td>10%</td>
-<td>19.12%</td>
-<td>239</td>
-<td>$8</td>
-</tr>
-</tbody></table>
+![Screen Shot 2015-11-18 at 4.12.32 PM.png](https://bitbucket.org/repo/gpAKb4/images/1559648982-Screen%20Shot%202015-11-18%20at%204.12.32%20PM.png)
 
 The job of the rebalancing module is to buy or sell shares to bring the actual allocation of investments as close as possible to the target allocations.
 
@@ -48,7 +18,7 @@ This program should not have any UI. It should take in the current state of inve
 
 Technical decisions
 ------------------------------
-Since there is no UI for the program, I have decided to create a reusable iOS framework using Objective-C.  The first version of the framework is captured in the tag named v0.1.2_20151025\_2251.  This version solves the problem and contains couple of test cases to test the functionality of rebalancing a portfolio.  It is working as expected.
+Since there is no UI for the program, I have decided to create a reusable iOS framework using Objective-C.  This version solves the problem and contains couple of test cases to test the functionality of rebalancing a portfolio.  It is working as expected.
 
 For the second approach, I tried to do was rewriting the framework to use a manager concept, which is a singleton or shared instance in the framework. This Portfolio manager is in charge of the following:
 - Initiating the portfolio
@@ -59,7 +29,9 @@ The goal of refactoring the code was to decouple the strategy, portfolio, update
 
 The organization of the file structure was also intended to make the files easier to locate and the code easier to read.
 
-<pre>
+```
+#!objective-c
+
 |-- PortfolioRebalancing
     |-- Info.plist
     |-- PortfolioManager.h
@@ -96,14 +68,14 @@ The organization of the file structure was also intended to make the files easie
     |-- Utilities
         |-- PortfolioUtility.h
         |-- PortfolioUtility.m
-</pre>
+```
 
-Trade-offs
+Programming Challenge
 ------------------------------
-If I have more time, I will make the second approach work.  It is not functional at the moment.  I will continue troubleshooting the issues.
+This framework is currently not functional.  You are asked to troubleshooting the issues and resolve them.  Add additional unit tests to identify issues with the framework.
 
 
 Authors
 -------
 
-The spec was provided as a programming challenge and implemented by Jenny Chang Ho.
+The spec was provided as a programming challenge and initially implemented by Jenny Chang Ho.
